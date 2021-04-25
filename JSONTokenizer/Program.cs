@@ -162,33 +162,7 @@ namespace ConsokoApp7
                 Console.WriteLine($"value: {token.Value}        type: {token.Type}");
                 token = t.tokenize();
             }
-            //JSON s = new JSON(new Input(json));
-            //JSON s = new JSON(new Input(@"{""firsttest"":""firstvalue"",""sec"":""secondvalue""}"));
-            //JObject l = s.ParseObject();
-            // foreach (var value in l.values)
-            // {
-            //     if (value.value is JArray)
-            //     {
-            //         JArray arr = (JArray) value.value;
-            //         Console.WriteLine($"array length {arr.values.Count}");
-            //         foreach (var i in arr.values)
-            //         {
-            //             Console.WriteLine(i);
-            //         }
-            //     }
-            //
-            //     if (value.value is JObject)
-            //     {
-            //         JObject obj = (JObject) value.value;
-            //         foreach (var j in obj.values)
-            //         {
-            //             Console.WriteLine($"nested  key: {j.key}        value: {j.value}");
-            //         }
-            //     }
-            //     
-            //     Console.WriteLine($"key: {value.key}        value: {value.value}");
-            //  
-            // }
+           
             
             
         }
